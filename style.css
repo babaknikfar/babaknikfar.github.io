@@ -798,3 +798,31 @@ body {
     color: #555;
     line-height: 1.6;
 }
+
+
+
+
+
+@media (max-width: 768px) {
+    /* Remove the vertical line */
+    .timeline::before {
+        display: none;
+    }
+    
+    /* Make timeline items full width */
+    .timeline-content {
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .timeline-item:nth-child(odd) .timeline-content {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    /* Add more spacing between items */
+    .timeline-item {
+        margin-bottom: 30px;
+    }
+}
