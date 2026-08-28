@@ -11,7 +11,7 @@ html {
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #e7e6e3;
+    background-color: #f0f0f0;
     color: #333;
     line-height: 1.7;
 }
@@ -315,7 +315,7 @@ body {
 }
 
 .section-alt {
-    background-color: #d3d3d3;
+    background-color: inherit;
 }
 
 .container {
@@ -460,7 +460,7 @@ body {
 .project-card {
     background: white;
     border-radius: 10px;
-    padding: 30px;
+    padding: 20px 30px 30px 30px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.08);
     transition: all 0.3s;
 }
@@ -473,7 +473,7 @@ body {
 .project-icon {
     font-size: 3rem;
     color: #3498db;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .project-card h3 {
@@ -826,3 +826,4 @@ body {
         margin-bottom: 30px;
     }
 }
+
