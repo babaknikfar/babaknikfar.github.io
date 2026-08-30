@@ -254,7 +254,7 @@ body {
 }
 
 .hero-description {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     margin-bottom: 30px;
     color: #bdc3c7;
 }
@@ -825,5 +825,55 @@ body {
     .timeline-item {
         margin-bottom: 30px;
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+.company {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+}
+
+.company-name {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  line-height: 1;
+}
+
+.company-prefix {
+  font-size: 7rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.85);
+  letter-spacing: 0.05em;
+}
+
+.company-main {
+  font-size: 3.6rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  background: linear-gradient(135deg, #e0f2fe 0%, #7dd3fc 50%, #38bdf8 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.company-tagline {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #bae6fd;
+  opacity: 0.9;
 }
 
