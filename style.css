@@ -226,91 +226,6 @@ body {
 
 
 
-/* Hero Section */
-.hero {
-    background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
-    color: white;
-    text-align: center;
-    padding: 150px 20px 100px;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.hero-content {
-    max-width: 800px;
-}
-
-.hero h1 {
-    font-size: 3.5rem;
-    margin-bottom: 20px;
-    letter-spacing: -1px;
-}
-
-.hero-subtitle {
-    font-size: 1.5rem;
-    margin-bottom: 15px;
-    color: #ecf0f1;
-}
-
-.hero-description {
-    font-size: 1.1rem;
-    margin-bottom: 30px;
-    color: #bdc3c7;
-}
-
-.hero-buttons {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-}
-
-.btn {
-    display: inline-block;
-    padding: 12px 30px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: 600;
-    transition: all 0.3s;
-}
-
-.btn-primary {
-    background-color: #e74c3c;
-    color: white;
-}
-
-.btn-primary:hover {
-    background-color: #c0392b;
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-}
-
-.btn-secondary {
-    background-color: transparent;
-    color: white;
-    border: 2px solid white;
-}
-
-.btn-secondary:hover {
-    background-color: white;
-    color: #2c3e50;
-    transform: translateY(-2px);
-}
-
-.btn-small {
-    padding: 8px 20px;
-    font-size: 0.9rem;
-    background-color: #3498db;
-    color: white;
-}
-
-.btn-small:hover {
-    background-color: #2980b9;
-    transform: translateY(-2px);
-}
-
-/* Sections */
 .section {
     padding: 80px 20px;
 }
@@ -340,6 +255,9 @@ body {
     background-color: #3498db;
     margin: 15px auto 0;
 }
+
+
+
 
 /* About Section */
 .about-content {
