@@ -11,7 +11,7 @@ html {
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #e1e1e1;
     color: #333;
     line-height: 1.7;
 }
@@ -99,7 +99,7 @@ body {
     font-weight: 500;
     transition: color 0.3s;
     position: relative;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .nav-menu a:hover {
@@ -311,9 +311,10 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
-    background-color: #f0f0f0;
+    background-color: #fff;
     padding: 10px 15px;
     border-radius: 5px;
+    border: 1px solod #7e7e7e;
 }
 
 .highlight-item i {
@@ -1327,4 +1328,51 @@ body {
     .hero {
         padding: 90px 15px 40px;
     }
+}
+
+
+
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.btn-primary {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #c0392b;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.btn-secondary:hover {
+    background-color: white;
+    color: #2c3e50;
+    transform: translateY(-2px);
+}
+
+.btn-small {
+    padding: 8px 20px;
+    font-size: 0.9rem;
+    background-color: #3498db;
+    color: white;
+}
+
+.btn-small:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
 }
