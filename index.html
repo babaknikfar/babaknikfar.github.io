@@ -31,7 +31,6 @@
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#services" class="nav-link">Services</a></li>
                 <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#team" class="nav-link">Team</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
         </div>
@@ -88,21 +87,17 @@
     <!-- About Section -->
     <section id="about" class="section">
         <div class="container">
-            <h2 class="section-title">Dr. Babak Nikfar, CEO</h2>
+            <h2 class="section-title">Dr. Babak Nikfar</h2>
             <div class="about-content">
                 <div class="about-image">
                     <div class="profile-placeholder">
                         <img src="img/babak.png">
-                        <!--i class="fas fa-user-circle"></i>
-                        <p>Photo</p-->
                     </div>
                 </div>
                 <div class="about-text">
                     <p>I'm <strong>Dr. Babak Nikfar</strong>, founder and CEO of <strong>Nik Intelligence</strong> — a freelance AI/ML consultancy based in Germany. With a Ph.D. in Electrical Engineering and over a decade of experience in data science and machine learning, I help businesses unlock the full potential of their data.</p>
                     <p>At Nik Intelligence, we deliver <strong>end-to-end AI solutions</strong> that bridge the gap between research and production. From data ingestion and feature engineering to model deployment and continuous monitoring, we build robust, scalable systems that drive measurable business outcomes. Our approach is <strong>pragmatic, transparent, and results-driven</strong> — we don't just build models; we solve problems.</p>
-                    <p>Whether you're a startup looking to integrate AI into your product or an enterprise seeking to optimize operations with machine learning, we bring the expertise and dedication to make it happen. <strong>Let's turn your data into your competitive advantage.</strong></p>
-                
-
+    
                     <div class="about-highlights">
                         <div class="highlight-item">
                             <i class="fas fa-building"></i>
@@ -130,8 +125,13 @@
     <!-- Company Services Section -->
     <section id="services" class="section section-alt">
         <div class="container">
-            <h2 class="section-title">What Nik Intelligence Offers</h2>
+            <h2 class="section-title">Skills & Services</h2>
             <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Python Development</h3>
+                    <p>Professional object-oriented and modular Python development.</p>
+                </div>
                 <div class="service-card">
                     <i class="fas fa-chart-line"></i>
                     <h3>Data Analytics</h3>
@@ -150,12 +150,7 @@
                 <div class="service-card">
                     <i class="fas fa-chalkboard-teacher"></i>
                     <h3>Corporate Training & Workshops</h3>
-                    <p>Tailored courses and hands-on workshops for teams and institutes to master AI and data science.</p>
-                </div>
-                <div class="service-card">
-                    <i class="fas fa-laptop-code"></i>
-                    <h3>Online Courses & Self-Paced Learning</h3>
-                    <p>Comprehensive online courses designed for individuals to learn AI, data science, and analytics at their own pace.</p>
+                    <p>Tailored courses and workshops for teams and institutes to master AI and data science.</p>
                 </div>
             </div>
         </div>
@@ -168,101 +163,60 @@
             <div class="projects-grid">
 
 
-                <!--london-crime-analysis-->
-                <div class="project-card">
-                    <div class="project-icon">
-                        <i class="fas fa-gun"></i>
-                    </div>
-                    <h3>London Crime Analysis</h3>
-                    <p>An end-to-end data pipeline ingesting, cleaning, and analyzing 12 months of messy, incident-level crime data from the Police.uk API for Central London.</p>
-                    <div class="project-tech">
-                        <img src="https://img.shields.io/badge/Python-3.14-3776AB?style=flat&logo=python&logoColor=white&color=orange" alt="Python"/>
-                        <img src="https://img.shields.io/badge/Pandas-3.0-150458?style=flat&logo=pandas&logoColor=white&color=orange" alt="Pandas"/>
-                        <img src="https://img.shields.io/badge/Matplotlib-3.11-11557C?style=flat&logo=thestorygraph&logoColor=white&color=orange" alt="Matplotlib"/>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/babaknikfar/london-crime-analysis" class="btn btn-small" target="_blank">
-                            <i class="fab fa-github"></i> View Code
-                        </a>
-                    </div>
-                </div>
 
-                <!--ecommerce-customer-analysis-->
-                <div class="project-card">
-                    <div class="project-icon">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <h3>E-commerce Customer Behavior Analysis</h3>
-                    <p>Comprehensive data cleaning and exploratory analysis of UK-based online retail transactions.</p>
-                    <div class="project-tech">
-                        <img src="https://img.shields.io/badge/Python-3.14-3776AB?style=flat&logo=python&logoColor=white&color=orange" alt="Python"/>
-                        <img src="https://img.shields.io/badge/Pandas-3.0-150458?style=flat&logo=pandas&logoColor=white&color=orange" alt="Pandas"/>
-                        <img src="https://img.shields.io/badge/Matplotlib-3.11-11557C?style=flat&logo=thestorygraph&logoColor=white&color=orange" alt="Matplotlib"/>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/babaknikfar/ecommerce-customer-analysis" class="btn btn-small" target="_blank">
-                            <i class="fab fa-github"></i> View Code
-                        </a>
-                    </div>
-                </div>
+
+<!--london-crime-analysis-->
+<div class="project-card">
+    <div class="project-image">
+        <img src="img/london-crime-analysis.png" alt="London Crime Analysis preview">
+    </div>
+    <div class="project-content">
+        <h3>London Crime Analysis</h3>
+        <p>An end-to-end data pipeline ingesting, cleaning, and analyzing 12 months of messy, incident-level crime data from the Police.uk API for Central London.</p>
+        <p class="hashtag">#python #numpy #pandas #matplotlib #seaborn #jupyter</p>
+        <div class="project-links">
+            <a href="https://github.com/babaknikfar/london-crime-analysis" class="btn btn-small" target="_blank">
+                <i class="fab fa-github"></i> View Code
+            </a>
+        </div>
+    </div>
+</div>
+
+<!--ecommerce-customer-analysis-->
+<div class="project-card">
+    <div class="project-image">
+        <img src="img/customer-behavior-analysis.png" alt="London Crime Analysis preview">
+    </div>
+    <div class="project-content">
+        <h3>Customer Behavior Analysis</h3>
+        <p>Comprehensive data cleaning and exploratory analysis of UK-based online retail transactions. Features insights into customer purchasing behavior.</p>
+        <p class="hashtag">#python #numpy #pandas #matplotlib #seaborn #jupyter</p>
+        <div class="project-links">
+            <a href="https://github.com/babaknikfar/ecommerce-customer-analysis" class="btn btn-small" target="_blank">
+                <i class="fab fa-github"></i> View Code
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+
+
 
                 
-                <!-- Add more project cards here as you create more projects -->
-                <div class="project-card project-coming-soon">
-                    <div class="project-icon">
-                        <i class="fas fa-plus-circle"></i>
-                    </div>
-                    <h3>More Projects Coming Soon</h3>
-                    <p>We're actively working on new data science and machine learning projects. Check back soon!</p>
-                    <div class="project-links">
-                        <a href="https://github.com/babaknikfar" class="btn btn-small" target="_blank">
-                            <i class="fab fa-github"></i> GitHub
-                        </a>
-                    </div>
-                </div>
+
             </div>
         </div>
     </section>
 
-<!-- Team Section -->
-<section id="team" class="section section-alt">
-    <div class="container">
-        <h2 class="section-title">Team</h2>
-        <div class="contact-grid">
-            <div class="contact-card team-card">
-                <img src="img/babak.png" alt="Babak Nikfar" class="team-photo">
-                <h3>Dr. Babak Nikfar</h3>
-                <p class="team-position">CEO & Lead Data Scientist</p>
-            </div>
-            <div class="contact-card team-card">
-                <img src="img/shadi.jpg" alt="Team Member" class="team-photo">
-                <h3>Dr. Shadi Moradkhani</h3>
-                <p class="team-position">Senior Data Scientist</p>
-            </div>
-            <div class="contact-card team-card">
-                <img src="img/reza.jpg" alt="Team Member" class="team-photo">
-                <h3>Reza Parham</h3>
-                <p class="team-position">AI/ML Engineer | Freelancer</p>
-            </div>
-            <div class="contact-card team-card">
-                <img src="img/elena.jpg" alt="Team Member" class="team-photo">
-                <h3>Elena Petrova</h3>
-                <p class="team-position">AI/ML Engineer | Freelancer</p>
-            </div>
-            <div class="contact-card team-card">
-                <img src="img/shappi.jpg" alt="Team Member" class="team-photo">
-                <h3>Shappi</h3>
-                <p class="team-position">Head of Treat Acquisition</p>
-            </div>
-        </div>
-    </div>
-</section>
+
 
     <!-- Contact Section -->
     <section id="contact" class="section">
         <div class="container">
             <h2 class="section-title">Get In Touch</h2>
-            <p class="contact-intro">We're always interested in hearing about new opportunities and collaborations.</p>
+            <p class="contact-intro">I'm always interested in hearing about new opportunities and collaborations.</p>
             <div class="contact-grid">
                 <div class="contact-card">
                     <i class="fas fa-envelope"></i>
