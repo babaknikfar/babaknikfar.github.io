@@ -10,8 +10,6 @@ This is my personal portfolio website showcasing my projects.
 ## How to View
 Visit: https://babaknikfar.github.io
 
-## Projects Included
-- Project 1: BackupPilot
 
 ## Contact
 - Email: bnikfar85@gmail.com
