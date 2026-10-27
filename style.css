@@ -54,15 +54,15 @@ body {
 
 .logo-text {
     color: #ffffff;
-    font-weight: 800;
-    font-size: 1.5rem;
+    font-weight: 750;
+    font-size: 1.3rem;
     letter-spacing: 2px;
     line-height: 1;
 }
 
 .logo-text small {
     display: block;
-    font-size: 0.55rem;
+    font-size: 0.58rem;
     font-weight: 400;
     letter-spacing: 3px;
     color: #bdc3c7;
@@ -81,7 +81,6 @@ body {
     gap: 30px;
     margin: 0;
     padding: 0;
-    font-variant: small-caps;
 }
 
 .nav-menu li {
@@ -507,7 +506,7 @@ body {
 }
 
 .hero-content {
-    max-width: 1000px;
+    max-width: 1100px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -524,7 +523,7 @@ body {
 }
 
 .hero-title {
-    font-size: 4.2rem;
+    font-size: 3.4rem;
     font-weight: 900;
     line-height: 1.05;
     margin: 0;
@@ -548,13 +547,15 @@ body {
 }
 
 .hero-subtitle {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 300;
     color: rgba(255, 255, 255, 0.7);
     letter-spacing: 4px;
     text-transform: uppercase;
     margin-top: -4px;
 }
+
+.accented {color: #34d399;}
 
 .hero-description {
     font-size: 1.1rem;
@@ -563,6 +564,7 @@ body {
     max-width: 620px;
     margin: 4px 0 8px;
     font-weight: 300;
+    text-align: justify;
 }
 
 .hero-buttons {
@@ -877,4 +879,41 @@ body {
     .hero {
         padding: 90px 15px 40px;
     }
+}
+
+
+
+
+
+
+
+
+
+
+.eyebrow{
+  display:inline-flex;
+  align-items:center;
+  gap:.6rem;
+  margin:0 0 1.6rem;
+  padding:.4rem .9rem;
+  border:1px solid rgba(255,255,255,.09);
+  border-radius:999px;
+  background:rgba(255,255,255,.035);
+  font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;;
+  font-size:.74rem;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:#97a1b2;
+}
+
+.pulse{
+  width:7px; height:7px;
+  border-radius:50%;
+  background:#34d399;
+  box-shadow:0 0 0 0 rgba(52,211,153,.7);
+  animation:pulse 2.4s infinite;
+}
+@keyframes pulse{
+  70%  { box-shadow:0 0 0 9px rgba(52,211,153,0); }
+  100% { box-shadow:0 0 0 0 rgba(52,211,153,0); }
 }
